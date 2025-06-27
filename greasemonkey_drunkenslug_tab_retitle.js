@@ -4,9 +4,7 @@
 // @include  https://www.drunkenslug.com/*
 // ==/UserScript==
 
-console.log('Hello World 1!');
-
-
+// console.log('Hello World 1!');
 window.addEventListener('load', function() {
   let url = window.location.href;
   if (url.includes('drunkenslug.com/details')) {       
@@ -26,4 +24,4 @@ window.addEventListener('load', function() {
     }
   }
 }, false);
-console.log('Hello World 2!');
+// console.log('Hello World 2!');

@@ -8,8 +8,8 @@
 // @grant        none
 // @license      MIT
 // ==/UserScript==
- 
-document.addEventListener('keydown', function(e) {
+
+document.addEventListener('keydown', function (e) {
     if (e.key === 'Delete' && e.ctrlKey) {
         e.stopImmediatePropagation();
     }
